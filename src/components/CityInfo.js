@@ -22,8 +22,8 @@ const Button = styled.button`
 
 class CityInfo extends React.Component {
   onClick = event => {
-    const { addToFavorits } = this.props;
-    addToFavorits(this.props.city);
+    const { addToFavorites } = this.props;
+    addToFavorites(this.props.city);
   };
   render() {
     if (this.props.name === undefined) {
@@ -45,11 +45,6 @@ const mapStateToProps = state => {
   const telemetry = state.weather.data.main || { temp: 0 };
   const city = state.weather.data;
 
-  console.log("HERE", {
-    name,
-    telemetry,
-    city
-  });
   return {
     name,
     telemetry,

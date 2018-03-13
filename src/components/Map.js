@@ -5,7 +5,6 @@ import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 
 class Map extends React.Component {
   render() {
-    const markers = []; //ToDo:
     return (
       <GoogleMap defaultZoom={4} defaultCenter={{ lat: 50.49, lng: 13.68 }}>
         {this.props.markers.map((marker, index) => (

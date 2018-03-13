@@ -16,7 +16,7 @@ const Message = styled.div`
   height: 2em;
   width: 250px;
   font-size: 1em;
-  color: white;
+  color: grey;
 `;
 
 class Cities extends React.Component {

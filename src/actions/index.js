@@ -29,7 +29,7 @@ export const fetchWeather = id => (dispatch, getState) => {
   );
 };
 
-export const addToFavorits = city => (dispatch, getState) => {
+export const addToFavorites = city => (dispatch, getState) => {
   dispatch({
     type: "ADD_TO_FAVORITES",
     city
