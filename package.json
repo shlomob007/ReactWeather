@@ -1,0 +1,29 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel-polyfill": "6.26.0",
+    "react": "16.2.0",
+    "react-beautiful-dnd": "5.0.0",
+    "react-dom": "16.2.0",
+    "react-google-maps": "9.4.5",
+    "react-redux": "5.0.7",
+    "react-scripts": "1.1.0",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.2.0",
+    "styled-components": "3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
