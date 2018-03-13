@@ -14,6 +14,7 @@ const Select = styled.select`
 
 const Message = styled.div`
   height: 2em;
+  width: 250px;
   font-size: 1em;
   color: white;
 `;
@@ -75,9 +76,9 @@ class Cities extends React.Component {
 
   render() {
     const { isFetching, errorMessage } = this.props;
-    // if (isFetching) {
-    //   return <Message>Loading...</Message>;
-    // }
+    if (isFetching) {
+      return <Message>Loading...</Message>;
+    }
     if (errorMessage) {
       return <Message>{errorMessage}</Message>;
     }
