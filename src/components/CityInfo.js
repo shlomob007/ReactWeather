@@ -26,7 +26,7 @@ class CityInfo extends React.Component {
     addToFavorites(this.props.city);
   };
   render() {
-    if (this.props.name === undefined) {
+    if (typeof this.props.name === 'undefined') {
       return <Wrapper />;
     }
 
